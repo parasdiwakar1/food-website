@@ -91,6 +91,7 @@ nav {
     left: 0px;
     position: fixed;
     gap: 30px;
+    height: 60px;
     width: 100vw;
     text-align: center;
     background-color: black;

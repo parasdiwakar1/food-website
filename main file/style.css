@@ -175,6 +175,8 @@ body{
 }
 /* .............box create..................... */
 .bigbox{
+    position: relative;
+    top: 100px;
     height: 1100px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -518,6 +520,10 @@ nav {
     justify-content: center;
     align-items: center;
 }
+.h-m{
+    position: relative;
+    top: 30px;
+}
 
 p:hover {
     color: red;
@@ -561,5 +567,9 @@ p{
 
     .search-button {
         width: 20%; 
+    }
+    .bigbox{
+        position: relative;
+        
     }
 }
